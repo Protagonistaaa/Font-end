@@ -1,0 +1,107 @@
+body{
+     background-color: rgb(255, 255, 255);
+}
+
+.caixa{
+     position: relative;
+     width: 950px;
+     margin: 0 auto;
+
+}
+
+header{
+     background-color: white;
+     padding: 20px 0;
+}
+
+nav{
+     position: absolute;
+     top: 110px;
+     right: 0;
+}
+
+nav li{
+     text-align: center;
+     display: inline-block;
+     margin: 0 0 0 15px;
+     vertical-align: top;
+}
+
+nav a{
+     color: black;
+     text-transform: uppercase;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 20px;
+}
+
+nav a:hover{
+     color: red;
+     text-decoration: underline;
+}
+
+h2{
+     font-size: 25px;
+     text-align: center;
+     color: white;
+}
+
+p{
+     text-align: center;
+     color: white;
+     font-size: 17px;
+}
+
+#banner {
+     width: 900px;
+     height: 400px;
+     margin-left: 210px;
+}
+
+#missao {
+     font-size: 20px;
+}
+
+em strong{
+     color: red;
+}
+
+
+h3{
+     font-size: 30px;
+     text-align: center;
+     color: white;
+}
+
+.itens{
+     font-style: italic;
+     color: white;
+}
+
+.beneficios{
+     padding: 10px;
+     background: black;
+     padding-bottom: 10px;
+}
+
+ul{
+     display: inline-block;
+     vertical-align: top;
+     width: 20%;
+     margin-right: 20%;
+}
+
+.barbeiro{
+     width: 50%;
+}
+
+footer{
+     text-align: center;
+     background-color: black;
+}
+
+.Copyright{
+     font-size: 13px;
+     margin: 20px;
+     color: white;
+}
