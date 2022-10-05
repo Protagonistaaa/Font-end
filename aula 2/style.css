@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+     --branco-principal: #ffffff;
+     --cinza-secudario:#C0C0C0;
+     --botão-azul: #167BF7;
+     --cor-de-fundo: #00030C;
+}
+
+body{
+     background-color: var(--cor-de-fundo);
+     color: var(--branco-principal);
+     font-family: 'Inter', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+}
+
+.principal{
+     background-image: url("Background.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     text-align: center;
+     align-items: center;
+
+}
+
+.container{
+     height: 100vh;
+     display: grid;
+     grid-template-columns: 50% 50%;
+}
+
+.container--botao{
+     background-color: var(--botão-azul);
+     border-radius: 5px;
+     padding: 1em;
+     color: var(--branco-principal);
+     display: block;
+     text-decoration: none;
+     margin-bottom: 1em;
+     
+}
+
+.botao--secudario{
+     background-color: transparent;
+     border: 3px solid var(--branco-principal);
+}
+
+.container--aviso{
+     color: var(--cinza-secudario);
+     font-size: 12px;
+}
+
+.container--titule{
+     position: absolute;
+     width: 588px;
+     height: 102px;
+     left: 54px;
+     top: 125px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 34px;
+     
+}
+
+.container--imagens{
+     margin: 4em 0 2em 0;
+}
+
+.container--caixa{
+     margin: 0 6em;
+}
+
+.container--plataformas{
+     position: absolute;
+     width: 498px;
+     height: 560px;
+     left: 165px;
+     top: 775px;
+
+}
+
+.container--assista{
+     position: absolute;
+     color: var(--branco-principal);
+     width: 588px;
+     height: 58px;
+     left: 732px;
+     top: 998px;
+     font-family: 'Inter';
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 120%;
+}
+
+.container--aproveita{
+     position: absolute;   
+     color: var(--cinza-secudario); 
+     width: 588px;
+     height: 48px;
+     left: 732px;
+     top: 1064px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 150%;
+}
+
+.text--telas{
+     position: absolute;
+     width: 588px;
+     height: 72px;
+     left: 120px;
+     top: 1584px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 150%;
+}
+
+.bottom--assine{
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 16px;
+     gap: 16px;
+     
+     position: absolute;
+     width: 162.68px;
+     height: 56px;
+     left: 120px;
+     top: 1672px;
+     
+     background: var(--botão-azul);
+     border-radius: 8px;
+     color: var(--branco-principal);
+     text-decoration: none;
+     width: 134px;
+     height: 24px;
+     text-align: center;
+     align-items: center;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 150%;
+     display: flex;
+     flex: none;
+}
+
+.container--telas{
+     position: absolute;
+     width: 496px;
+     height: 338.96px;
+     left: 778px;
+     top: 1486px;
+}
+
+.container--notebook{
+     position: absolute;
+     width: 547px;
+     height: 324px;
+     left: 141px;
+     top: 2051px;
+}
+
+.container--baixe{
+     position: absolute;
+     width: 588px;
+     height: 58px;
+     left: 732px;
+     top: 2156px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 120%;
+     color: var(--branco-principal);
+}
+
+.container--explicando{
+     position: absolute;
+     width: 588px;
+     height: 48px;
+     left: 732px;
+     top: 2222px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 150%;
+     color: var(--cinza-secudario);
+}
+
+.container--disponivel{
+     position: absolute;
+     width: 985px;
+     height: 58px;
+     left: 228px;
+     top: 2639px;
+     text-align: center;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 120%;
+}
+
+.container--tv{
+     position: absolute;
+     width: 339px;
+     height: 192px;
+     left: 155px;
+     top: 2737px;
+}
+
+.text--tv{
+     position: absolute;
+     width: 46px;
+     height: 38px;
+     left: 301px;
+     top: 2945px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 120%;
+}
+
+.container--computador{
+     position: absolute;
+     width: 339px;
+     height: 192px;
+     left: 563px;
+     top: 2737px;
+}
+
+.text--computador{
+     position: absolute;
+     width: 234px;
+     height: 38px;
+     left: 615px;
+     top: 2945px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 120%;
+}
+
+.container--celular{
+     position: absolute;
+     width: 339px;
+     height: 192px;
+     left: 970px;
+     top: 2737px;
+}
+
+.text--celular{
+     position: absolute;
+     width: 292px;
+     height: 38px;
+     left: 994px;
+     top: 2945px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 120%;
+}
+
+.container--logo{
+     position: absolute;
+     width: 102px;
+     height: 35.28px;
+     left: 669px;
+     top: 3128px;
+}
+
+.container--ulprincipal{
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     position: absolute;
+     width: 1124px;
+     height: 24px;
+     left: 158px;
+     top: 3203.99px;
+}
+
+.container--ulprincipal li a{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-decoration: none;
+color: var(--branco-principal);
+}
+
+.text--final{
+     position: absolute;
+     width: 1200px;
+     height: 84px;
+     left: 120px;
+     top: 3251.99px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 150%;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: var(--cinza-secudario);
+}
